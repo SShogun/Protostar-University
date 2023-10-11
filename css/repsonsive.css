@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1060px) {
+    .navbar-opts {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+    .site-background {
+        background-position: center center;
+    }
+    .logo img {
+        height: 6vh;
+    }
+    .navbar-title {
+        left: 5px;
+    }
+    .logo p {
+        font-size: 1rem;
+    }
+    .main-title {
+        font-size: 5vh;
+    }
+    .main-text {
+        font-size: 2vh;
+        max-width: 60vw;
+        text-align: center;
+        margin: auto;
+    }
+    .heading-1 {
+        font-size: 5vh;
+    }
+    .text-1 {
+        font-size: 2vh;
+    }
+    .courses-heading {
+        font-size: 5vh;
+    }
+    .courses-text {
+        font-size: 2vh;
+    }
+    .course-container {
+        display: flex;
+        margin-top: 3vh;
+    }
+    .box-1 {
+        margin: 10px 0px;
+        width: 35vw;
+        height: 10vh;
+    }
+    .box-1 h1{
+        font-size: 16px;
+    }
+    .box-text {
+        display: none;
+    }
+    .b1 {
+        filter: grayscale(0);
+        height: 2vh;
+        width: 2vw;
+    }
+    .b2 {
+        filter: grayscale(0);
+    }
+    .b3 {
+        filter: grayscale(0);
+    }
+    .b4 {
+        filter: grayscale(0);
+    }
+    .campus-container {
+        flex-wrap: wrap;
+        height: 64vh;
+        width: 100vw;
+        margin: 3vh 0px;
+    }
+
+    .box-2 {
+        height: 30vh;
+        width: 40vw;
+    }
+    .box-2 h1 {
+        font-size: 1rem;
+    }
+    .facilities {
+        height: 125vh;
+    }
+    .f-main {
+        height: 20vh;
+        width: 80vw;
+    }
+    .fac-text-primary {
+        font-size: 3vh;
+        width: 100vw;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .fac-text-secondary {
+        font-size: 2.2vh;
+        width: 100vw;
+        text-align: center;
+    }
+    .box-3 {
+        width: 100vw;
+        margin-bottom: 3.5vh;
+    }
+    .review-container {
+        flex-direction: column;
+        width: 100vw;
+        height: 50vh;
+    }
+    .r-box {
+        width: 100%;
+    }
+    .student-img {
+        width: 45%;
+    }
+    .student-img img {
+        transform: scale(0.7);
+    }
+    .student-text {
+        font-size: 0.6rem;
+    }
+    .student-name {
+        font-size: 1rem;
+    }
+    .enroll {
+        margin-top: 2wvh;
+    }
+    .enroll-image {
+        width: 100vw;
+        height: 30vh;
+    }
+    .blur-3 {
+        width: 100vw;
+        height: 30vh;
+    }
+    .enroll-text {
+        font-size: 2vh;
+    }
+    .socials i {
+        margin: 0 2vw;
+    }
+}
+
+    
+@media only screen and (max-width: 700px) {
+    .navbar-opts {
+        display: none;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .box {
+        width: 90vw;
+    }
+    .navbar-title {
+        font-size: 1rem;
+    }
+}
